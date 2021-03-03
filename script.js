@@ -1,3 +1,8 @@
+//! Random Color Generator
+const setc = () => {
+  const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  document.getElementById("attrc").style.color = "#" + randomColor;
+};
 var i = 0;
 function io() {
   if (i == 0) {

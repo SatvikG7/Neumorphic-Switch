@@ -2,6 +2,20 @@
   margin: 0;
   padding: 0;
 }
+.attr{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: khaki;
+  user-select: none;
+}
+.fa-github{
+  color: khaki;
+}
+.attr a{
+  text-decoration: none;
+}
 .outer-rect {
   position: absolute;
   margin: auto;
